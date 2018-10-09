@@ -5,4 +5,6 @@ Georgios Pitsilis, Heri Ramampiaro, and Helge Langseth. 2018. "Securing Tag-base
 
 As far as the datasets we generated for the purpose of the experiment described in the above mentioned paper, we provide in total 5 sets, one for each run of the experiment. Each set contains one pair of files.
 
-Every delicious_train_X.csv file contains the bogus data generated for the particuler experiment run, while every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
+Every delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X a number defining the experiment). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
+
+The code will published soon.
