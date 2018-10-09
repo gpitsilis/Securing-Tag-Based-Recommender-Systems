@@ -7,4 +7,7 @@ As far as the datasets we generated for the purpose of the experiment described 
 
 Every delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X a number defining the experiment). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
 
+The structure of the files:
+
+
 The code will published soon.
