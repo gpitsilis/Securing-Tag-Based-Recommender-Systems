@@ -17,7 +17,9 @@ Each delicious_train_X.csv file contains the bogus data generated for the partic
 The number of records in every delicious_train_X.csv file is the 30% of the number of records of the adjucent delicous_small_X.csv file. That is because we chose to train the classifiers with 30% bogus data, over the original legitimate data.
 
 
-The structure of the files:
+The content in the data files has the following structure:
+
+product_ID <space> username <space> tag_1,tag_2,..., tag_n
 
 
 The code will published soon.
