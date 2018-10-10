@@ -10,8 +10,8 @@ Georgios Pitsilis, Heri Ramampiaro, and Helge Langseth. 2018. "Securing Tag-base
 
 As far as the datasets is concerned, for the purpose of the experiment described in the above mentioned paper, we generated the following 5 sets, each one corresponding to an experiment run. Each set contains one pair of files.
 
-Each delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X a number defining the experiment, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
-
+Each delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X is a number denoting the experiment run, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
+The number of records in every delicious_train_X.csv file is 30% the number of records of the adjucent delicous_small_X.csv file. That is because we chose to train the classifiers with 30% bogus data, over the original legitimate data.
 
 
 The structure of the files:
