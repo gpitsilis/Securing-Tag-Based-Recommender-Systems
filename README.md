@@ -14,7 +14,7 @@ As far as the datasets is concerned, for the purpose of the experiment described
 </p>
 
 Each delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X is a number denoting the experiment run, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
-The number of records in every delicious_train_X.csv file is the 30% of the number of records of the adjucent delicous_small_X.csv file. That is because we chose to train the classifiers with 30% bogus data, over the original legitimate data.
+The number of records in every delicious_train_X.csv file is the 30% of the number of records of the adjucent delicous_small_X.csv file. That is so, because we deliberately chose to train the classifiers with ratio of 30/100 bogus vs  legitimate data.
 
 <p>
 The content in the data files has the following structure:
