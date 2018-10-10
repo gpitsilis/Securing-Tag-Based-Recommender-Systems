@@ -6,7 +6,7 @@ Code and Data associated with RecSys'18 paper:
 Georgios Pitsilis, Heri Ramampiaro, and Helge Langseth. 2018. "Securing Tag-based recommender systems against profile injection attacks: A comparative study", In Proceedings of Late-Breaking Results track part of the Twelfth ACM Conference on Recommender Systems (RecSys’18) Vancouver, BC, Canada, October 2-7, 2018.
 </b>
 </i>
-
+.
 
 As far as the datasets is concerned, for the purpose of the experiment described in the above mentioned paper, we generated the following 5 sets, each one corresponding to an experiment run. Each set contains one pair of files.
 
