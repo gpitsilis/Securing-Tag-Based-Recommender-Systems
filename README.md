@@ -18,6 +18,7 @@ The number of records in every delicious_train_X.csv file is the 30% of the numb
 
 <p>
 The content in the data files has the following structure:
+<br>
 <b>
 product_ID &lt space &gt username &lt space &gt tag_1,tag_2,..., tag_n
 </b>
