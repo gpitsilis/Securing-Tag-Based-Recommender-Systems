@@ -19,7 +19,7 @@ Similarly, each delicious_piggy_train_X.csv file contains the bogus data generat
 Each delicious_train_X.csv file contains a number of records equal to the 30% of the records exist in the adjacent delicous_small_X.csv file. It was chosen to be so, because in the experiment the classifiers were trained with bogus and  legitimate data mixed with ratio 30/100.
 
 <p>
-The content in the data files has the following structure:
+The content in the data files is structured as follows:
 <br>
 <b>
 product_ID &lt space &gt username &lt space &gt tag_1,tag_2,..., tag_n
