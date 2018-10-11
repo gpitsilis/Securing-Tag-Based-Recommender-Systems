@@ -13,8 +13,9 @@ Georgios Pitsilis, Heri Ramampiaro, and Helge Langseth. 2018. "Securing Tag-base
 As far as the datasets is concerned, for the purpose of the experiment described in the above mentioned paper, we generated the following 5 sets, each one corresponding to an experiment run. Each set contains one pair of files.
 </p>
 
-Each delicious_train_X.csv file contains the bogus data generated for the particular experiment run (where X is a number denoting the experiment run, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
-The number of records in every delicious_train_X.csv file is the 30% of the number of records of the adjucent delicous_small_X.csv file. That is so, because we deliberately chose to train the classifiers with ratio of 30/100 bogus vs  legitimate data.
+Each delicious_over_train_X.csv file contains the bogus data generated to simulate the overload attack, for the particular experiment run (where X is a number denoting the experiment run, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
+
+Each delicious_train_X.csv file contains a number of records equal to the 30% of the records exist in the adjacent delicous_small_X.csv file. It was chosen to be so, because in the experiment the classifiers were trained with bogus and  legitimate data mixed with ratio 30/100.
 
 <p>
 The content in the data files has the following structure:
