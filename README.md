@@ -16,7 +16,7 @@ As far as the datasets is concerned, for the purpose of the experiment described
 Each delicious_over_train_X.csv file contains the bogus data generated to simulate the overload attack for the particular experiment run (where X is a number denoting the experiment run, and it ranges from 1 to 5). In the same way, every delicious_small_X.csv file contains the selected legitimate data used for the same experiment run.
 Similarly, each delicious_piggy_train_X.csv file contains the bogus data generated to simulate the piggyback attack for the X experiment run.
 
-Each delicious_nnnnn_train_X.csv file has number of records equal to the 30% of the those exist in the adjacent delicous_small_X.csv file. That is because, in the experiment the classifiers were trained with bogus and  legitimate data mixed with ratio 30/100.
+Each delicious_nnnnn_train_X.csv file has size in terms of number of records that equals to the 30% of the size of the adjacent delicous_small_X.csv file. That is because, in the experiment we trained the classifiers with bogus and legitimate data taht were mixed with ratio 30/100.
 
 <p>
 The content in the data files is structured as follows:
