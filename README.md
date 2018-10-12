@@ -26,4 +26,4 @@ product_ID &lt space &gt username &lt space &gt tag_1,tag_2,..., tag_n
 </b>
 </p>
 
-The code will published soon.
+The code used in the experiments described in the paper will be published soon.
